@@ -1,0 +1,215 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|VT323');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+body {
+	background-image: url("/img/background.png");
+}
+#navigation {
+	.navbar {
+		justify-content: center!important;
+		padding: 0px!important;
+		margin-bottom: 20px;
+		.nav-item {
+			height: 55px;
+			display: flex;
+		}
+		height: 55px;
+		.nav-left-border {
+			background-image: url("/img/navbar_left.png");
+			height: 55px;
+			width: 12px;
+		}
+		.nav-right-border {
+			background-image: url("/img/navbar_right.png");
+			height: 55px;
+			width: 12px;
+		}
+		.nav-text {
+			background-image: url("/img/navbar_span.png");
+			height: 55px;
+
+			h2 {
+				padding: 18px 0px;
+				text-shadow: 1px 1px 1px #d0ae67, -1px -1px 1px #342817;
+				color: #150e04;
+				font-family: "VT323", SANS-SERIF;
+				font-size: 33px;
+				line-height: 28px;
+			}
+			h2:hover {
+				color: #ffebbc;
+				opacity: .5;
+			}
+		}
+	}
+
+
+	.nav ul {
+	    *zoom:1;
+	    list-style:none;
+	    margin:0;
+	    padding:0;
+	    /*background:#333;*/
+	}
+	.nav ul:before,.nav ul:after {
+	    content:"";
+	    display:table;
+	}
+	.nav ul:after {
+	    clear:both;
+	}
+	.nav ul > li {
+	    float:left;
+	    position:relative;
+	}
+	.nav a {
+	    /*display:block;
+	    padding:10px 20px;
+	    line-height:1.2em;
+	    color:#fff;
+	    border-left:1px solid #595959;*/
+	}
+	.nav a:hover {
+	    text-decoration:none;
+	    /*background:#595959;*/
+	}
+	.nav li ul {
+	    /*background:#273754;*/
+	}
+	.nav li ul li {
+		background-image: url("/img/subnav-field.png");
+	    width:111px;
+	}
+	.nav li ul li:first-of-type {
+	    background-image: url("/img/subnav-top.png");
+	    height: 7px;
+	}
+	.nav li ul li:last-of-type {
+	    background-image: url("/img/subnav-bottom.png");
+	    height: 14px;
+	}
+	.nav li ul a {
+	    border:none;
+	    font-family: "VT323", SANS-SERIF;
+	    text-align: center!important;
+
+	}
+	.nav li ul a:hover {
+	    /*background:rgba(0,0,0,0.2);*/
+	    text-align: center!important;
+	}
+	.nav li ul {
+	    position:absolute;
+	    left: 11px;
+	/*    top:36px;*/
+	    z-index:1;
+	}
+	.nav li ul li {
+	    overflow:hidden;
+	    height:0;
+	    -webkit-transition:height 200ms ease-in;
+	    -moz-transition:height 200ms ease-in;
+	    -o-transition:height 200ms ease-in;
+	    transition:height 200ms ease-in;
+	}
+	.nav ul > li:hover ul li {
+	    height:29px;
+	}
+	.nav ul > li:hover ul li:first-of-type {
+	    height:7px;
+	}
+	.nav ul > li:hover ul li:last-of-type {
+	    height:14px;
+	}
+	a {
+		position: relative;
+	}
+	h4 {
+		font-size: 18px;
+		color: #5e0605;
+		line-height: 11px;
+		position: absolute;
+		top: 22px;
+		transform: translate(0%, -50%);
+		width: 111px;
+	}
+	a h4:hover {
+		color: #ffcc33;
+	}
+
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 12px;
+
+	.content-box{
+		/*width: 720px;*/
+		padding: 20px;
+		border: 5px solid #ffca45;
+		border-radius: 16px;
+		border-style: ridge;
+		background-color: #d7b28e;
+	}
+	.content-area {
+		height: 500px;
+
+overflow-y: auto;
+	}
+	
+}
+
+.footer {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+/*	padding: 0.5rem 1rem;*/
+	background-image: url("/img/footer-center-repeat.png");
+	/*width: 831px;*/
+	height: 77px;
+
+	.footer-left {
+		width: 101px;
+		height: 77px;
+		background-image: url("/img/footer-left.png");
+		display: inline-block;
+		background-color: #151412;
+	}
+	.footer-center {
+		height: 77px;
+/*		background-image: url("/img/footer-center-repeat.png");*/
+		display: inline-block;
+		width: 100px;
+		margin: 0px -4px;
+	}
+	.footer-right {
+		width: 218px;
+		height: 77px;
+		display: inline-block;
+		background-image: url("/img/footer-right.png");
+		background-color: #151412;
+	}
+}
