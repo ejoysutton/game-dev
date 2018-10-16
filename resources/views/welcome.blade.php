@@ -16,7 +16,7 @@
     <body>
         <div class="" id="top">
             <div class="text-center">
-                <div id="navigation">
+                <!-- <div id="navigation">
                     <nav class="nav navbar">
                         <ul>
                             <li>
@@ -83,10 +83,10 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
+                </div> -->
 
 
-                <div class="content">
+                <!-- <div class="content">
                     <div class="content-box container">
                         <div class="content-area">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pulvinar sapien vel consectetur accumsan. Duis sit amet fringilla lorem, eu rutrum mauris. Nullam commodo erat est, gravida luctus ante dapibus nec. Praesent leo urna, sodales ac enim vitae, elementum pretium metus. Suspendisse rhoncus lacinia semper. Nullam sed sagittis velit. Sed semper dictum fringilla. Maecenas vel dolor eros. Pellentesque massa orci, laoreet eu facilisis sed, luctus gravida magna. Suspendisse laoreet neque et eros rhoncus, eget aliquam sapien suscipit. Phasellus semper ultrices eros, nec rhoncus quam faucibus nec. Duis tincidunt ac tortor eget vulputate. Pellentesque quis blandit enim.</p>
@@ -100,19 +100,19 @@
                             <p>Mauris hendrerit arcu nec scelerisque tincidunt. Donec eget varius ligula. Aenean interdum, urna sed vehicula gravida, lorem neque aliquam metus, at dapibus diam nulla sed enim. Quisque vel egestas leo. Etiam ac arcu rhoncus, hendrerit nulla in, hendrerit sapien. Maecenas facilisis quis leo tincidunt malesuada. Aenean condimentum eleifend sem, in aliquet lorem ornare id. Nam in quam pharetra, sagittis ipsum eu, viverra enim. Praesent mauris enim, suscipit ac condimentum et, pulvinar in ante. Mauris scelerisque ultrices enim a tempus. </p>
                         </div>
                     </div>
-                </div>
-                <div class=" container">
+                </div> -->
+                <!-- <div class=" container">
                     <div class="footer">
                         <div class="footer-left">
                         </div>
-                        <!-- <div class="footer-center">
-                        </div> -->
+                        <div class="footer-center">
+                        </div>
                         <div class="footer-right">
                         </div>
                     </div>
                     <div class="footer-bottom">
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
