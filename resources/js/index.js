@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 export default class Index extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="">
                 <Header/>
                 <Content/>
                 <Footer/>            

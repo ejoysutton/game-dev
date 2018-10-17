@@ -7,7 +7,7 @@ export default class Content extends Component {
     render() {
         return (
             <div class="content">
-                    <div class="content-box container">
+                    <div class="content-box">
                         <div class="content-area">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pulvinar sapien vel consectetur accumsan. Duis sit amet fringilla lorem, eu rutrum mauris. Nullam commodo erat est, gravida luctus ante dapibus nec. Praesent leo urna, sodales ac enim vitae, elementum pretium metus. Suspendisse rhoncus lacinia semper. Nullam sed sagittis velit. Sed semper dictum fringilla. Maecenas vel dolor eros. Pellentesque massa orci, laoreet eu facilisis sed, luctus gravida magna. Suspendisse laoreet neque et eros rhoncus, eget aliquam sapien suscipit. Phasellus semper ultrices eros, nec rhoncus quam faucibus nec. Duis tincidunt ac tortor eget vulputate. Pellentesque quis blandit enim.</p>
 

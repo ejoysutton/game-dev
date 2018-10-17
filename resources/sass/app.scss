@@ -155,20 +155,21 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 12px;
+	padding: 0px 0px 18px;
 
 	.content-box{
 		/*width: 720px;*/
 		padding: 20px;
-		border: 5px solid #ffca45;
+		/*border: 5px solid #ffca45;
 		border-radius: 16px;
-		border-style: ridge;
-		background-color: #d7b28e;
+		border-style: ridge;*/
+		background-color: rgba(255, 255, 255, 0.75);
+		box-shadow: 0 0 8px 8px #c4c4c4;
 	}
 	.content-area {
-		height: 500px;
+		/*height: 500px;*/
 
-overflow-y: auto;
+/*overflow-y: auto;*/
 	}
 	
 }
